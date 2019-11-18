@@ -27,7 +27,8 @@ let Calculator={
   }
 }
 
-function actionApplyer(intStart ){
+function actionApplyer(intStart, array ){
+  
   
 }
 
