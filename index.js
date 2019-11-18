@@ -31,6 +31,12 @@ function actionApplyer(intStart, array ){
   if (array.length===0)
   return intStart;
   
+  else{
+    array.forEach(e=>{
+      intStart = e(intStart);
+    })
+  }
+  
   
 }
 
