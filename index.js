@@ -35,6 +35,7 @@ function actionApplyer(intStart, array ){
     array.forEach(e=>{
       intStart = e(intStart);
     })
+    return intStart;
   }
   
   
