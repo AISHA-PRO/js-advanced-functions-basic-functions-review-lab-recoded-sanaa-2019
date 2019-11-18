@@ -27,5 +27,9 @@ let Calculator={
   }
 }
 
+function actionApplyer(){
+  
+}
+
 let encouragingPromptFunction = wrapAdjective("!!!");
 wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programmer%!"
