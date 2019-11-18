@@ -28,6 +28,8 @@ let Calculator={
 }
 
 function actionApplyer(intStart, array ){
+  if (array.length===0)
+  return intStart;
   
   
 }
